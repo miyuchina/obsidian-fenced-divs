@@ -1,4 +1,18 @@
-# obsidian-fenced-divs
+# Fenced Divs for Obsidian
+
+This Obsidian plugin supports the special fenced syntax for Pandoc Markdown:
+
+```
+::: {.id #className}
+This is rendered as _Markdown_.
+
+- Some list items
+    - More list items
+    - You get the idea ...
+:::
+```
+
+## Development
 
 To install dependencies:
 
@@ -6,10 +20,8 @@ To install dependencies:
 bun install
 ```
 
-To run:
+To compile:
 
 ```bash
-bun run index.ts
+bun run dev
 ```
-
-This project was created using `bun init` in bun v1.2.5. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
