@@ -1,0 +1,10 @@
+{
+  "id": "obsidian-fenced-divs",
+  "name": "Fenced Divs",
+  "version": "0.0.1",
+  "minAppVersion": "0.15.0",
+  "description": "Support Pandoc's fenced div syntax for Obsidian",
+  "author": "Mi Yu",
+  "authorUrl": "https://github.com/miyuchina",
+  "isDesktopOnly": false
+}

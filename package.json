@@ -1,0 +1,16 @@
+{
+  "name": "obsidian-fenced-divs",
+  "main": "main.js",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "./scripts/build"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "obsidian": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}

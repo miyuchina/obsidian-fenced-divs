@@ -1,0 +1,24 @@
+.obsidian-fenced-div {
+	background-color: rgba(8, 109, 221, 0.1);
+	padding: 1em;
+	border-radius: 0.5em;
+	cursor: pointer;
+	transition: background-color 0.2s ease-in-out;
+
+	&:hover {
+		background-color: rgba(8, 109, 221, 0.15);
+	}
+
+	> * {
+		margin: 0;
+	}
+
+	.obsidian-fenced-div-name-banner {
+		color: rgb(8, 109, 221);
+		font-weight: bold;
+		font-size: smaller;
+		line-height: 1.5;
+		text-align: right;
+		user-select: none;
+	}
+}

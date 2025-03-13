@@ -1,0 +1,20 @@
+#!/bin/bash
+
+bun build \
+  --entrypoints "./src/main.ts" \
+  --outdir "." \
+  --format "cjs" \
+  --external "obsidian" \
+  --external "electron" \
+  --external "@codemirror/autocomplete" \
+  --external "@codemirror/collab" \
+  --external "@codemirror/commands" \
+  --external "@codemirror/language" \
+  --external "@codemirror/lint" \
+  --external "@codemirror/search" \
+  --external "@codemirror/state" \
+  --external "@codemirror/view" \
+  --external "@lezer/common" \
+  --external "@lezer/highlight" \
+  --external "@lezer/lr" \
+  --watch
